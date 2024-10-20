@@ -1,7 +1,7 @@
 //your JS code here. If required.
-let para=getElementById("timer");
+let para=document.getElementById("timer");
 let timer=new Date();
 setInterval( function(){
 	timer=new Date();
-	para.innerHTML=timer.toLocalString();
+	para.innerHTML=timer.toLocaleString();
 },1000);
